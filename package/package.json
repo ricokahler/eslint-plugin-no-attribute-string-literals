@@ -1,0 +1,40 @@
+{
+  "name": "eslint-plugin-no-attribute-string-literals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "rollup -c"
+  },
+  "keywords": [],
+  "files": [
+    "./dist"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/preset-typescript": "^7.23.2",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/eslint": "^8.44.6",
+    "@typescript-eslint/parser": "^6.9.0",
+    "@typescript-eslint/rule-tester": "^6.9.0",
+    "@typescript-eslint/typescript-estree": "^6.9.0",
+    "esbuild": "^0.19.5",
+    "esbuild-register": "^3.5.0",
+    "eslint": "^8.52.0",
+    "jest": "^29.7.0",
+    "rollup": "^4.1.4",
+    "typescript": "^5.2.2"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts"
+}
