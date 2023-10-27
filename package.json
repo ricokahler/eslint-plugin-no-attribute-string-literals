@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "jest",
-    "prepare": "tsc && rollup -c"
+    "build": "tsc && rollup -c",
+    "prepare": "npm run build"
   },
   "keywords": [
     "eslint",
