@@ -1,4 +1,6 @@
-# `no-attribute-string-literals` ESLint Plugin
+# ~`no-attribute-string-literals` ESLint Plugin~
+
+**⚠️ Deprecated: please use the new package 👉 [`@sanity/eslint-plugin-i18n`](https://github.com/sanity-io/eslint-plugin-i18n) 👈**
 
 [![github status checks](https://badgen.net/github/checks/ricokahler/eslint-plugin-no-attribute-string-literals)](https://github.com/ricokahler/eslint-plugin-no-attribute-string-literals/actions) [![codecov](https://codecov.io/gh/ricokahler/eslint-plugin-no-attribute-string-literals/graph/badge.svg?token=mHioxC2QmZ)](https://codecov.io/gh/ricokahler/eslint-plugin-no-attribute-string-literals) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
